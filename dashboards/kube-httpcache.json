@@ -130,7 +130,7 @@
           "interval": "",
           "intervalFactor": 2,
           "legendFormat": "",
-          "metric": "",dashboards/kube-httpcache.json
+          "metric": "",
           "refId": "A",
           "step": 1800
         }
