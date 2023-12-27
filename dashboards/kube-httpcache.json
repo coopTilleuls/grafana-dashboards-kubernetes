@@ -130,7 +130,7 @@
           "interval": "",
           "intervalFactor": 2,
           "legendFormat": "",
-          "metric": "",
+          "metric": "",dashboards/kube-httpcache.json
           "refId": "A",
           "step": 1800
         }
@@ -1516,7 +1516,7 @@
     "list": [
       {
         "current": {},
-        "definition": "label_values({label_les_tilleuls_coop_client=~\"Walibuy\"},namespace)",
+        "definition": "label_values(varnish_version,namespace)",
         "hide": 0,
         "includeAll": false,
         "multi": false,
@@ -1524,7 +1524,7 @@
         "options": [],
         "query": {
           "qryType": 1,
-          "query": "label_values({label_les_tilleuls_coop_client=~\"Walibuy\"},namespace)",
+          "query": "label_values(varnish_version,namespace)",
           "refId": "PrometheusVariableQueryEditor-VariableQuery"
         },
         "refresh": 1,
